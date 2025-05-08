@@ -1,0 +1,89 @@
+
+/* the following function is for styling square the you move and control it */
+#tank {
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    left: 600px;
+    top: 300px;
+  }
+/* the following code for contolers */
+/* move to right */
+  #right {
+    width: 50px;
+    height: 50px;
+    background-color: red; /* You can change the color as needed */
+    position:absolute;
+    left: 1900px;
+    top: 900px;
+  }
+/* move to left */
+  #left {
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow; /* You can change the color as needed */
+    position:absolute;
+    left: 1800px;
+    top: 900px;
+  }
+  /*move to top */
+  #up {
+    width: 50px;
+    height: 50px;
+    background-color: darkgreen; /* You can change the color as needed */
+    position:absolute;
+    left: 1850px;
+    top: 850px;
+  }
+  /* move to bottom */
+  #bottom {
+    width: 50px;
+    height: 50px;
+    background-color: darkkhaki; /* You can change the color as needed */
+    position:absolute;
+    left: 1850px;
+    top: 950px;
+  }
+  /* this for the background */
+  #map{
+    width: 2000px;
+    height:1000px;
+    background-color: chocolate;
+    position:-webkit-sticky;
+  }
+/* bo is for bomb */
+  #bo{
+    width: 10px;
+    height:10px;
+    background-color: red;
+    position:absolute;
+    left: 750px;
+    top: 630px;
+  }
+  /* button is for shooting(it will let the tank to shoot) */
+  #button {
+    width: 50px;
+    height: 50px;
+    background-color: darkkhaki; /* You can change the color as needed */
+    position:absolute;
+    left: 1850px;
+    top: 900px;
+  }
+  /* goal is for the goal that i shoot on */
+  #goal{
+    width: 50px;
+    height: 50px;
+    background-color: blue; /* You can change the color as needed */
+    position:absolute;
+    left: 1500px;
+    top: 500px;
+  }
+/* for toggle button */
+  #toggleButton{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 238, 255, 0.39);
+    position:absolute;
+    left: 1700px;
+    top: 900px;
+  }
