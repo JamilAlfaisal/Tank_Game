@@ -54,6 +54,8 @@ function moveleft() {
     tank.style.left = leftx + 'px';
     leftx -= 10;
     if (checkDirection != 'left') {
+        clearInterval(togglefunction);
+        togglevar = 0;
         rotateImageleft();
     }
     if (togglevar != 1){
@@ -67,6 +69,8 @@ function moveright() {
     leftx += 10;
     tank.style.left = leftx + 'px';
     if (checkDirection != 'right') {
+        clearInterval(togglefunction);
+        togglevar = 0;
         rotateImageright();
     }
     if (togglevar != 1){
@@ -80,6 +84,8 @@ function movetop() {
     topx -= 10;
     tank.style.top = topx + 'px';
     if (checkDirection != 'top') {
+        clearInterval(togglefunction);
+        togglevar = 0;
         rotateImagetop();
         checkDirection = 'top';
     }
@@ -94,6 +100,8 @@ function movebottom() {
     topx += 10;
     tank.style.top = topx + 'px';
     if (checkDirection != 'bottom') {
+        clearInterval(togglefunction);
+        togglevar = 0;
         rotateImagebottom();
         checkDirection = 'bottom';
     }
