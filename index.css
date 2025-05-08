@@ -10,44 +10,44 @@
 /* the following code for contolers */
 /* move to right */
   #right {
-    width: 50px;
-    height: 50px;
+    width: 3.3vw;
+    height: 6.6vh;
     background-color: red; /* You can change the color as needed */
     position:absolute;
-    left: 1900px;
-    top: 900px;
+    left: 89.7vw;
+    top: 80vh;
   }
 /* move to left */
   #left {
-    width: 50px;
-    height: 50px;
+    width: 3.3vw;
+    height: 6.6vh;
     background-color: greenyellow; /* You can change the color as needed */
     position:absolute;
-    left: 1800px;
-    top: 900px;
+    left: 82.35vw;
+    top: 80vh;
   }
   /*move to top */
   #up {
-    width: 50px;
-    height: 50px;
+    width: 3.3vw;
+    height: 6.6vh;
     background-color: darkgreen; /* You can change the color as needed */
     position:absolute;
-    left: 1850px;
-    top: 850px;
+    left: 86vw;
+    top: 72vh;
   }
   /* move to bottom */
   #bottom {
-    width: 50px;
-    height: 50px;
+    width: 3.3vw;
+    height: 6.6vh;
     background-color: darkkhaki; /* You can change the color as needed */
     position:absolute;
-    left: 1850px;
-    top: 950px;
+    left: 86vw;
+    top: 88.5vh;
   }
   /* this for the background */
   #map{
-    width: 2000px;
-    height:1000px;
+    width: 100vw;
+    height:100vh;
     background-color: chocolate;
     position:-webkit-sticky;
   }
@@ -62,12 +62,12 @@
   }
   /* button is for shooting(it will let the tank to shoot) */
   #button {
-    width: 50px;
-    height: 50px;
+    width: 3.3vw;
+    height: 6.6vh;
     background-color: darkkhaki; /* You can change the color as needed */
     position:absolute;
-    left: 1850px;
-    top: 900px;
+    left: 86vw;
+    top: 80vh;
   }
   /* goal is for the goal that i shoot on */
   #goal{
@@ -80,10 +80,10 @@
   }
 /* for toggle button */
   #toggleButton{
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    height: 6vh;
     background-color: rgba(0, 238, 255, 0.39);
     position:absolute;
-    left: 1700px;
-    top: 900px;
+    left: 75vw;
+    top: 80vh;
   }

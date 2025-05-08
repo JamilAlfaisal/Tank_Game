@@ -39,7 +39,7 @@ function toggle() {
             togglefunction = setInterval(moveright, 100);
         } else if (checkDirection == 'bottom') {
             togglefunction = setInterval(movebottom, 100);
-        } else {
+        } else if (checkDirection == 'top'){
             togglefunction = setInterval(movetop, 100);
         }
     } else {
